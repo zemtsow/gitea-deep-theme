@@ -1,0 +1,324 @@
+@-moz-document domain("https://gitea.io/") {
+:root {
+    --s-body-background: #1e1e1e;
+    --s-following-bar-background-color: #1e1e1e;
+}
+body {
+    background-color: var(--s-body-background);
+}
+.following.bar.light {
+    border-bottom: 1px solid #646464;
+}
+.following.bar #navbar {
+    background-color: var(--s-following-bar-background-color);
+}
+.ui.secondary.menu .active.item, .ui.secondary.menu .active.item:hover {
+    color: #fff;
+    background-color: #444;
+}
+.ui.secondary.menu .item {
+    color: #fff;
+}
+.svg {
+    color: #fff;
+}
+.ui.secondary.menu .dropdown.item:hover, .ui.secondary.menu .link.item:hover, .ui.secondary.menu a.item:hover {
+    color: #959595;
+}
+.ui.basic.button:focus, .ui.basic.button:hover, .ui.basic.buttons .button:focus, .ui.basic.buttons .button:hover {
+    color: gray;
+}
+.ui.basic.buttons .button {
+    color: gray;
+}
+.ui.basic.active.button:hover, .ui.basic.buttons .active.button:hover {
+    background-color: #363535;
+}
+.ui.basic.button:focus, .ui.basic.button:hover, .ui.basic.buttons .button:focus, .ui.basic.buttons .button:hover {
+    background-color: #363534;
+}
+.ui.dropdown {
+    color: gray;
+    padding: 0 1em;
+    background-color: #1e1e1e;
+}
+.ui.dropdown .menu .active.item {
+    background-color: #363534;        
+}
+.ui.dropdown .menu>.item {
+    background-color: #2f2f2f;
+    color: #fff;
+}
+.ui.dropdown .menu .active.item {
+    color: #a8a8a8;  
+    background-color: #222;
+}
+.ui.dropdown .menu>.item:hover {
+    color: #a8a8a8;  
+    background-color: #202020;
+}
+.ui.dropdown>.text {
+    background-color: none;        
+}
+.ui.dropdown .menu {
+        border: none;
+}
+footer {
+    border-top: 1px solid gray;
+    background-color:#1e1e1e;     
+}
+.ui.segments>.segment {
+    border: none;
+}
+.repository #clone-panel .clone.button {
+    color: gray;
+}
+i.icon.download:before {
+    color: gray;
+}
+.ui.basic.button, .ui.basic.buttons .button {
+    color: gray;
+}
+.repository.file.list #repo-files-table thead th {
+    color: #fff;
+}
+.repository #commits-table td.sha .sha.label, .repository #repo-files-table .sha.label, .repository .timeline-item.commits-list .singular-commit .sha.label {
+    border: none;
+    background-color: #363534;
+    color: #fff;
+}
+.repository.wiki.start .ui.segment {
+    background-color: #282828;
+}
+.ui.attached:not(.message)+.ui.attached.segment:not(.top) {
+    background-color: #282828;
+}
+.ui.horizontal.segments:not(.stackable)>.segment:first-child {
+    background-color: #282828;
+}
+.ui.menu .dropdown.item .menu {
+    background-color: #313131;
+}
+.ui.menu .ui.dropdown .menu>.item {
+    color: #9d9b9b !important;
+}
+.ui.basic.button:focus, .ui.basic.button:hover, .ui.basic.buttons .button:focus, .ui.basic.buttons .button:hover {
+    color: #fff;
+}
+.repository .ui.segment.sub-menu .list .item span.ui {
+    color: #b0afae;
+}
+.ui.menu .ui.dropdown .menu>.item {
+    background-color: #9d9c9c;
+    color: #c8c5c5 !important;
+}
+.ui.dropdown .menu>.input:not(.transparent) input {
+    background-color: #5b5a5a;
+    color: #fff;
+}
+.ui.menu .ui.dropdown .menu>.item:hover, .ui.menu .ui.dropdown .menu>.selected.item {
+    color: gray !important;
+}
+.ui.menu .ui.dropdown .menu>.active.item {
+    color: #ffe !important;
+}
+.ui.segment {
+    background-color: #313131;
+}
+.ui.header .sub.header {
+    color: #b5b5b5;
+}
+.ui:not(.upward).floating.dropdown>.menu {
+    background-color: #313131;
+}
+.ui.dropdown .menu .selected.item, .ui.dropdown.selected {
+    color: #fff;
+    background-color: #313131;
+}
+.ui.segments:not(.horizontal)>.segment:first-child {
+    background-color:#2b2b2b;
+}
+.repository .ui.segment.sub-menu .list .item a {
+    color: #acaaaa;
+}
+p:first-child {
+    color: gray;
+}
+.ui.tabular.menu .active.item {
+    color: #fff;
+    background-color: #3c3c3b;
+}
+.ui.labeled.button:not([class*="left labeled"])>.button {
+    color: #fff;
+}
+.ui.labeled.button:not([class*="left labeled"])>.button {
+    color: #fff;
+}
+.ui.checkbox input.hidden+label {
+    color: #fff
+}
+.ui.form .inline.field>label, .ui.form .inline.field>p, .ui.form .inline.fields .field>label, .ui.form .inline.fields .field>p, .ui.form .inline.fields>label {
+    color: #fff;
+}
+.ui.form .field>label {
+    color: gray;
+}
+.markdown:not(code), .ui.accordion .title:not(.ui), .ui.button, .ui.card>.content>.header.ui.card>.content>.header, .ui.category.search>.results .category>.name, .ui.form input:not([type]), .ui.form input[type=date], .ui.form input[type=datetime-local], .ui.form input[type=email], .ui.form input[type=file], .ui.form input[type=number], .ui.form input[type=password], .ui.form input[type=search], .ui.form input[type=tel], .ui.form input[type=text], .ui.form input[type=time], .ui.form input[type=url], .ui.header, .ui.input>input, .ui.input input, .ui.items>.item>.content>.header, .ui.language>.menu>.item, .ui.list .list>.item .header, .ui.list>.item .header, .ui.menu, .ui.message .header, .ui.modal>.header, .ui.popup>.header, .ui.search>.results .result .title, .ui.search>.results>.message .header, .ui.statistic>.label, .ui.statistic>.value, .ui.statistics .statistic>.label, .ui.statistics .statistic>.value, .ui.steps .step .title, .ui.text.container, body, h1, h2, h3, h4, h5, textarea {
+    background-color: gray;
+}
+a {
+    background-color: none;
+}
+.ui.table {
+    color: gray;
+}
+.repository .header-wrapper {
+    background-color: #1e1e1d;
+}
+.ui.tabular.menu .item {
+    color: #9b9b9b;
+}
+.ui.tabular.menu .item:hover {
+    color: gray;
+}
+.repository {
+    background-color: #282828;
+}
+.ui.table {
+    border: 1px solid gray;
+}
+.ui.table>thead>tr>th {
+    background-color: #282828;
+}
+.ui.secondary.pointing.menu {
+    background-color: #282828 !important;
+}
+.ui.selection.visible.dropdown>.text:not(.default) {
+    color: #c8c5c5;
+}
+.ui.form .inline.field>.selection.dropdown, .ui.form .inline.fields .field>.selection.dropdown {
+    color: #fff;
+}
+.ui.form .inline.field>input, .ui.form .inline.field>select, .ui.form .inline.fields .field>input, .ui.form .inline.fields .field>select {
+    background-color: gray;
+    color: #fff;
+}
+.repository.new.fork form input, .repository.new.fork form textarea, .repository.new.migrate form input, .repository.new.migrate form textarea, .repository.new.repo form input, .repository.new.repo form textarea {
+    background-color: #5e5d5d;
+    color: #fff;
+}
+.ui.card>.content>.header:not(.ui), .ui.cards>.card>.content>.header:not(.ui) {
+    color: #fff;
+}
+.ui.form textarea, .ui.input textarea {
+    background-color: #5e5d5d;
+}
+.ui.form textarea:focus {
+    background-color: #444343;
+    color: #fff;
+}
+.ui.card>.content>.header+.description, .ui.card>.content>.meta+.description, .ui.cards>.card>.content>.header+.description, .ui.cards>.card>.content>.meta+.description {
+    color: gray;
+}
+.ui.list .list>.item .description, .ui.list>.item .description {
+    color: #bbb;
+}
+.ui.user.list .item .description a {
+    color: gray;
+}
+.ui.form .inline.field>.selection.dropdown, .ui.form .inline.fields .field>.selection.dropdown {
+    background-color: #595959;
+}
+.ui.card, .ui.cards>.card {
+    background-color: #282828;
+}
+.user.profile .ui.card .header {
+    color: #b3b1b1;
+}
+.user.profile .ui.card .extra.content ul li:not(:last-child) {
+    color: #c8c7c7;
+}
+.ui.card>.extra a:not(.ui), .ui.cards>.card>.extra a:not(.ui) {
+    color: #fff;
+}
+.ui.secondary.pointing.menu .dropdown.item:hover, .ui.secondary.pointing.menu .link.item:hover, .ui.secondary.pointing.menu a.item:hover {
+    color: gray;
+}
+.user.profile .ui.card .extra.content ul li {
+    color: #b5b3b3;
+}
+.ui.tabular.menu .item:hover {
+    color: #6a6969 !important;
+}
+.ui.secondary.pointing.menu .active.item {
+    background-color: #444;
+}
+.repository.file.list #repo-files-table td.name {
+    background-color: #282828;
+}
+.repository.file.list #repo-files-table td.message {
+    background-color: #282828;
+}
+.repository.file.list #repo-files-table td.age {
+    background-color: #282828;
+}
+.markdown:not(code), .ui.accordion .title:not(.ui), .ui.button, .ui.card>.content>.header.ui.card>.content>.header, .ui.category.search>.results .category>.name, .ui.form input:not([type]), .ui.form input[type=date], .ui.form input[type=datetime-local], .ui.form input[type=email], .ui.form input[type=file], .ui.form input[type=number], .ui.form input[type=password], .ui.form input[type=search], .ui.form input[type=tel], .ui.form input[type=text], .ui.form input[type=time], .ui.form input[type=url], .ui.header, .ui.input>input, .ui.input input, .ui.items>.item>.content>.header, .ui.language>.menu>.item, .ui.list .list>.item .header, .ui.list>.item .header, .ui.menu, .ui.message .header, .ui.modal>.header, .ui.popup>.header, .ui.search>.results .result .title, .ui.search>.results>.message .header, .ui.statistic>.label, .ui.statistic>.value, .ui.statistics .statistic>.label, .ui.statistics .statistic>.value, .ui.steps .step .title, .ui.text.container, body, h1, h2, h3, h4, h5, textarea {
+    background-color: #282828;
+}
+.markdown:not(code) .highlight pre, .markdown:not(code) pre {
+     background-color: #202020;
+}
+.ui .text.grey {
+    color: #fff !important;
+}
+.repository.file.list #repo-files-table td>* {
+    color: #848484;
+}
+.ui.attached.header {
+    border: 1px solid gray;
+}
+.ui.attached.segment {
+    border: 1px solid gray;
+}
+.ui.repository.list .item .time {
+    color: #a6a5a5;
+}
+.ui.attached.tabular.menu {
+    background-color: gray;        
+}
+.ui.action.input:not([class*="left action"])>input {
+    background-color: #333;
+    color: #fff;
+    outline: none;
+}
+.ui.list:last-child, ol.ui.list:last-child, ul.ui.list:last-child {
+    border-bottom: gray;        
+}
+.feeds .news .issue.title {
+    color: #b1b0b0;        
+}
+.markdown:not(code), .ui.accordion .title:not(.ui), .ui.button, .ui.card>.content>.header.ui.card>.content>.header, .ui.category.search>.results .category>.name, .ui.form input:not([type]), .ui.form input[type=date], .ui.form input[type=datetime-local], .ui.form input[type=email], .ui.form input[type=file], .ui.form input[type=number], .ui.form input[type=password], .ui.form input[type=search], .ui.form input[type=tel], .ui.form input[type=text], .ui.form input[type=time], .ui.form input[type=url], .ui.header, .ui.input>input, .ui.input input, .ui.items>.item>.content>.header, .ui.language>.menu>.item, .ui.list .list>.item .header, .ui.list>.item .header, .ui.menu, .ui.message .header, .ui.modal>.header, .ui.popup>.header, .ui.search>.results .result .title, .ui.search>.results>.message .header, .ui.statistic>.label, .ui.statistic>.value, .ui.statistics .statistic>.label, .ui.statistics .statistic>.value, .ui.steps .step .title, .ui.text.container, body, h1, h2, h3, h4, h5, textarea {
+    color: #939393;    
+}
+.ui.menu .active.item {
+    background-color: #2f2f2f;
+    color: #9e9c9c;
+    border: none;
+}
+.ui.attached.header {
+    background-color: #2f2f2f;
+}
+.ui.secondary.pointing.menu .active.item {
+    color: #a4a4a4;
+    border-bottom: 1px solid #a4a4a4;
+}
+.ui.secondary.pointing.menu .active.item, .ui.secondary.pointing.menu .active.item:hover {
+    color: #848484;
+}
+.ui.secondary.menu .dropdown.item:hover, .ui.secondary.menu .link.item:hover, .ui.secondary.menu a.item:hover {
+    color: #848484;
+}
+.ui.secondary.segment {
+    background-color: #2f2f2f;
+}
+}
