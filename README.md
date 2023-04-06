@@ -2,4 +2,4 @@
 
 I rewrote gitea styles and made them a little bit better for those who like dark themes
 
-go to v.1.0 branch to download deep-theme
+go to <a href="https://github.com/zemtsow/gitea-deep-theme/tree/v1.0">v1.0 branch</a> to download deep-theme
